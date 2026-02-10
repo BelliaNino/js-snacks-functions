@@ -5,7 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function getInitial(arr){
+/*function getInitial(arr){
 let result = [];
 
 for (let i = 0; i < arr.length; i++){
@@ -14,7 +14,17 @@ for (let i = 0; i < arr.length; i++){
 }
 
 return result
+}*/
+
+// Arrow function
+let result = [];
+
+for (let i = 0; i < arr.length; i++){
+    const char = arr[i];
+    result.push(char.charAt(0))
 }
+
+return result
 
 
 // Invoca la funzione qui e stampa il risultato in console
