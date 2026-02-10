@@ -5,9 +5,13 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-function saluta(nome) {
+/*function saluta(nome) {
     return `Ciao ` + nome;
-}
+}*/
+
+// Arrow function
+
+const saluta = (nome) => `Ciao ` + nome
 
 // Invoca la funzione qui e stampa il risultato in console
 const risultato = saluta(userName);
